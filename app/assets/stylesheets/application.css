@@ -19,3 +19,7 @@
 a {
 	text-decoration: none;
 }
+
+.checkbox input  {
+	opacity: 1;
+}

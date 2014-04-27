@@ -13,8 +13,8 @@
 				<% @user.get_books.each do |book| %>
 				<p><%= book["name"] %></p>
 				<% end %>
-			</div>
-		</div>
+			
+		</div></div>
 		<div class="col-lg-6">
 			<% @user.posts.order("created_at DESC").each do |post| %>
 			<div class="post">
