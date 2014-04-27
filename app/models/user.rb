@@ -61,5 +61,10 @@ class User < ActiveRecord::Base
       self.facebook.get_picture(uid)
    end
 
+   def verify_permissions
+      p = self.facebook.get_connection("me", "permissions")
+      pf = p.first
+      pf["publish_actions"]
+   end
 
 end
