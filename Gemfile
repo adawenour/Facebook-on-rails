@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
+
 gem 'koala'
 gem 'devise', '~> 3.2.4'
 gem 'omniauth-facebook'
